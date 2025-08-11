@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>رزومه پارسا پولادوند | دانشجوی مهندسی کامپیوتر</title>
+    <meta name="description" content="رزومه آنلاین پارسا پولادوند - دانشجوی مهندسی کامپیوتر">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <button id="theme-toggle" aria-label="تغییر تم">
+            <i class="fas fa-moon"></i>
+        </button>
+        <div class="profile-container">
+            <img id="profile-pic" src="" alt="عکس پروفایل">
+            <div class="profile-info">
+                <h1 id="full-name">در حال بارگذاری...</h1>
+                <h2 id="job-title"></h2>
+                <p id="bio"></p>
+            </div>
+        </div>
+        <div class="action-buttons">
+            <a href="#contact-info" class="contact-btn">
+                <i class="fas fa-paper-plane"></i> تماس با من
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <section id="skills">
+            <h2><i class="fas fa-code"></i> مهارت‌ها</h2>
+            <div class="skills-container" id="skills-list"></div>
+        </section>
+
+        <section id="education">
+            <h2><i class="fas fa-graduation-cap"></i> تحصیلات</h2>
+            <div class="timeline" id="education-list"></div>
+        </section>
+
+        <section id="experience">
+            <h2><i class="fas fa-briefcase"></i> تجربه‌های کاری</h2>
+            <div class="timeline" id="experience-list"></div>
+        </section>
+
+        <section id="interests">
+            <h2><i class="fas fa-heart"></i> علاقه‌مندی‌ها</h2>
+            <ul class="interests-list" id="interests-list"></ul>
+        </section>
+
+        <section id="contact-info">
+            <h2><i class="fas fa-address-card"></i> اطلاعات تماس</h2>
+            <ul id="contact-list"></ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>© <span id="current-year"></span> - ساخته شده با <i class="fas fa-heart"></i> توسط <span id="footer-name">پارسا پولادوند</span></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

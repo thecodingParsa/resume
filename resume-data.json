@@ -1,0 +1,49 @@
+{
+  "personal_info": {
+    "name": "پارسا پولادوند",
+    "job_title": "دانشجوی مهندسی کامپیوتر",
+    "profile_pic": "https://i.postimg.cc/wB9sCms2/200462968.jpg",
+    "bio": "دانشگاه بوعلی سینا",
+    "contact": {
+      "email": "mailto:Arsaepaengin@gmail.com",
+      "phone": "tel:09966959920",
+      "linkedin": "https://www.linkedin.com/in/parsa-pooladvand-2b172a351",
+      "github": "https://github.com/thecodingparsa"
+    }
+  },
+  "skills": [
+    {
+      "name": "++C",
+      "level": "65%"
+    }
+  ],
+  "education": [
+    {
+      "institution": "دانشگاه بوعلی سینا",
+      "degree": "کارشناسی مهندسی کامپیوتر",
+      "start_year": "1403",
+      "end_year": "1407",
+      "description": "گرایش نرم‌افزار - معدل 17.1"
+    }
+  ],
+  "experience": [
+    {
+      "company": "شرکت آپا",
+      "position": "کارآموز",
+      "start_date": "تیر 1404",
+      "end_date": "",
+      "description": "کارآموزی در زمینه توسعه وب و امنیت"
+    }
+  ],
+  "interests": [
+    "برنامه‌نویسی",
+    "تکنولوژی",
+    "موسیقی"
+  ],
+  "certifications": [
+    {
+      "name": "AWS Certified Developer",
+      "date": "1402"
+    }
+  ]
+}
